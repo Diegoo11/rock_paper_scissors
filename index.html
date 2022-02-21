@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lacquer&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div id="titulos">
@@ -29,19 +33,21 @@
             </div>
 
             <button class="botones">
-                <img src="files/img/rock.png" alt="piedra" class="left">
+                <img src="files/img/rock.png" alt="piedra" class="left" id="piedra">
             </button>
 
             <button class="botones">
-                <img src="files/img/paper.png" alt="papel" class="left">
+                <img src="files/img/paper.png" alt="papel" class="left" id="papel">
             </button>
 
             <button class="botones">
-                <img src="files/img/sisors.jpg" alt="tijeras" class="left">
+                <img src="files/img/sisors.jpg" alt="tijeras" class="left" id="tijera">
             </button>
         </div>
 
-        <div class="winer">
+        <div id="winer">
+            <div id="edit_1"></div>
+            <div id="edit_2"></div>
         </div>
 
         <div class="informacion_2">
@@ -54,11 +60,11 @@
     </div>
     <div id="pie">
         <div id="score_1">
-
+            Score : 0
         </div>
 
         <div id="score_2">
-
+            Score : 0
         </div>
     </div>
 </body>
