@@ -1,0 +1,86 @@
+* {
+    font-family: 'Comic Neue', cursive;
+    font-weight: bold;
+}
+
+body {
+    font-family: 'Lacquer', cursive;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.left {
+    height: 150px;
+    width: 150px;
+    
+}
+
+button {
+    margin: 15px;
+}
+
+#pc {
+    height: 250px;
+    width: 250px;
+    border: 6px white solid
+}
+
+#titulos {
+    font-size: 80px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 25px;
+
+}
+
+.titulo_1 {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.titulo_2 {
+    display: flex;
+    justify-content: center;
+}
+
+#cuerpo {
+    display: flex;
+    justify-content: space-between
+}
+
+.informacion_1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    justify-content: center;
+}
+
+.informacion_2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+    justify-content: center;
+    
+
+}
+
+.persona_1 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    font-family: 'Comic Neue', cursive;
+}
+
+.persona_2 {
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
