@@ -1,6 +1,6 @@
 * {
-    font-family: 'Comic Neue', cursive;
-    font-weight: bold;
+    font-family: 'Lacquer', cursive;
+    
 }
 
 body {
@@ -19,6 +19,7 @@ body {
 
 button {
     margin: 15px;
+    cursor: pointer;
 }
 
 #pc {
@@ -32,6 +33,7 @@ button {
     display: flex;
     flex-direction: column;
     margin-right: 25px;
+    font-family: 'Lacquer', cursive;
 
 }
 
@@ -44,6 +46,7 @@ button {
 .titulo_2 {
     display: flex;
     justify-content: center;
+    font-size: 100px;
 }
 
 #cuerpo {
@@ -72,6 +75,7 @@ button {
     display: flex;
     justify-content: center;
     font-family: 'Comic Neue', cursive;
+    font-weight: bold;
 }
 
 .persona_2 {
@@ -81,6 +85,20 @@ button {
     margin: 15px;
 }
 
+#pie {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 50px
+}
 
+#winer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
